@@ -1,5 +1,3 @@
-#!/usr/bin/env python
-
 import random
 import numpy as np
 
@@ -75,21 +73,3 @@ class KnapsackEDA:
         fitness_scores = [self.fitness(ind) for ind in population]
         best_index = np.argmax(fitness_scores)
         return population[best_index], fitness_scores[best_index]
-
-
-# Example usage
-if __name__ == "__main__":
-    # Define problem
-    values = [60, 100, 120]
-    weights = [10, 20, 30]
-    capacity = 50
-
-    # Create KnapsackEDA instance
-    knapsack = KnapsackEDA(
-        values, weights, capacity, population_size=100, generations=500, elite_ratio=0.4
-    )
-
-    # Run the algorithm
-    best_solution, best_value = knapsack.run()
-    print("Best solution:", best_solution)
-    print("Best value:", best_value)
