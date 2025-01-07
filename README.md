@@ -39,6 +39,7 @@ pip install -r requirements.txt
 ## Testing
 This project includes unit tests using pytest. To run the tests:
 ```
+cd tests
 python -m unittest test_knapsack.py
 ```
 
