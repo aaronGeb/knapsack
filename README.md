@@ -4,13 +4,14 @@ This project implements an **Estimation of Distribution Algorithm (EDA)** to sol
 
 ---
 
-## **Features**
-- Solves the 0/1 Knapsack Problem.
-- Encapsulates functionality in a Python class for modularity and reusability.
-- Includes:
-  - **Fitness Calculation**
-  - **Elite Selection**
-  - **Distribution Estimation and Sampling**
+## **Key Features**
+- Solves the **0/1 Knapsack Problem** efficiently using EDA principles.
+- Provides a clean and reusable Python class structure.
+- Core functionalities include:
+  - **Fitness Calculation**: Evaluates the total value of selected items.
+  - **Elite Selection**: Focuses on the top-performing solutions.
+  - **Distribution Estimation**: Learns the probabilities of selecting each item.
+  - **Population Sampling**: Generates new solutions based on learned probabilities.
 ---
 
 ## Installation
