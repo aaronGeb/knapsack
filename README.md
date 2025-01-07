@@ -27,6 +27,31 @@ This project implements an **Estimation of Distribution Algorithm (EDA)** to sol
 ## **Installation**
 ### **Setup Instructions**
 1. Clone the repository:
-   ```bash
-   git clone https://github.com/aaronGeb/knapsack.git
-   cd knapsack
+```
+git clone https://github.com/aaronGeb/knapsack.git
+cd knapsack
+```
+
+2.	Install the dependencies
+```
+pip install -r requirements.txt
+```
+## Testing
+This project includes unit tests using pytest. To run the tests:
+```
+python -m unittest test_knapsack.py
+```
+
+## Code Formatting
+```
+black .
+```
+### Contributing
+
+Contributions are welcome! If you’d like to contribute:
+1.	Fork the repository.
+2.	Create a new branch for your feature or bug fix.
+3.	Submit a pull request for review.
+
+## License
+This project is licensed under the MIT License. See the [LICENSE]() file for details.
