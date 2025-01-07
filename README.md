@@ -1,6 +1,6 @@
 # Knapsack Problem Solver Using Estimation of Distribution Algorithms
 
-This project implements a **Estimation of Distribution Algorithm (EDA)** to solve the **Knapsack Problem**. The goal is to maximize the total value of items in a knapsack without exceeding its weight capacity. This solution uses Python and encapsulates the algorithm in a reusable class structure.
+This project implements an **Estimation of Distribution Algorithm (EDA)** to solve the **Knapsack Problem**. The goal is to maximize the total value of items in a knapsack without exceeding its weight capacity. This solution uses Python and encapsulates the algorithm in a reusable class structure.
 
 ---
 
