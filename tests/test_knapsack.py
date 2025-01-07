@@ -34,8 +34,8 @@ class TestKnapsackEDA(unittest.TestCase):
             elite_ratio=0.4,
         )
         best_solution, best_value = knapsack.run()
-        self.assertEqual(sum(best_solution), 2)  # Expecting 2 items selected
-        self.assertEqual(best_value, 220)  # Expected total value for the best solution
+        self.assertEqual(sum(best_solution), 2)  
+        self.assertEqual(best_value, 220)  
 
     def test_best_solution_instance2(self):
         """Test best solution for problem instance 2."""
@@ -66,8 +66,8 @@ class TestKnapsackEDA(unittest.TestCase):
             elite_ratio=0.4,
         )
         best_solution, best_value = knapsack.run()
-        self.assertEqual(sum(best_solution), 0)  # No items can be selected
-        self.assertEqual(best_value, 0)  # Total value must be 0
+        self.assertEqual(sum(best_solution), 0)  
+        self.assertEqual(best_value, 0) 
 
     def test_empty_items(self):
         """Test behavior when no items are provided."""
@@ -80,8 +80,8 @@ class TestKnapsackEDA(unittest.TestCase):
             elite_ratio=0.4,
         )
         best_solution, best_value = knapsack.run()
-        self.assertEqual(len(best_solution), 0)  # No solution since no items exist
-        self.assertEqual(best_value, 0)  # Total value must be 0
+        self.assertEqual(len(best_solution), 0)  
+        self.assertEqual(best_value, 0)  
 
     def test_invalid_elite_ratio(self):
         """Test behavior with an invalid elite ratio."""
@@ -106,8 +106,8 @@ class TestKnapsackEDA(unittest.TestCase):
             elite_ratio=0.4,
         )
         best_solution, best_value = knapsack.run()
-        self.assertEqual(sum(best_solution), 1)  # Only one item is selected
-        self.assertEqual(best_value, 100)  # Total value is the value of the single item
+        self.assertEqual(sum(best_solution), 1)  
+        self.assertEqual(best_value, 100) 
 
 
 if __name__ == "__main__":
